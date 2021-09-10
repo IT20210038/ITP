@@ -15,7 +15,7 @@ const Channeling= props => (
     <td>{props.Channeling.HospitalFee}</td>
     <td>{props.Channeling.ChannelFee}</td>
     <td>
-      <Link to={"/edit/"+props.Channeling._id}>view</Link> | <a href="#" onClick={() => { props.deleteChannel(props.Channeling._id) }}>delete</a>
+      <Link to={"/edit/"+props.Channeling._id}>view</Link> | <a href="#" id="b4" onClick={() => { props.deleteChannel(props.Channeling._id) }}>delete</a>
     </td>
   </tr>
 )
